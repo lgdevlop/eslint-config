@@ -1,0 +1,1 @@
+# @lgdevlop/eslint-config
