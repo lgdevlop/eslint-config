@@ -3,7 +3,7 @@ import { fileURLToPath } from 'node:url'
 import { describe, test} from 'node:test'
 import { equal } from 'node:assert'
 
-import config from '../lib/web-ts-config.js'
+import config from '../lib/web-ts-config.cjs'
 import { getRuleIdFromMessage, hasLintError, runLintFiles } from '../eslint-integration-test.mjs'
 
 const ACTUAL_PATH = path.dirname(fileURLToPath(import.meta.url))
